@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momontong</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+
+  <body>
+    <span class="js-weather"></span>
+      <div class="wrap">
+        <form class="js-time">
+          <span class="time-hours"></span><!-- 
+          --><span class="colon">:</span><!-- 
+          --><span class="time-minutes"></span>
+        </form>
+        <br>
+  
+        <form class="js-name name">
+          <input type="text" id="typeName" placeholder="Type your name here" 
+          autocomplete="off">
+        </form>
+        <span class = "js-greeting greeting"></span>
+
+  
+        <form class="js-toDos showing">
+          <input type="text" id="typeToDo" placeholder="Write a To Do here" autocomplete="off">
+        </form>
+        <ul class="js-toDoList"></ul>
+        
+      </div>
+    
+
+    <script src="src/time.js"></script>
+    <script src="src/name.js"></script>
+    <script src="src/toDos.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
