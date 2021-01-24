@@ -47,8 +47,9 @@ input:focus {
 }
 
 .js-toDoList {
+  position: absolute;
   width: 184px;
-  margin: 0 auto;
+  margin: 0 85px;
   padding: 0;
   list-style: none;
 }
